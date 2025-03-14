@@ -24969,10 +24969,6 @@ PrefabInstance:
       propertyPath: _dialogueVariablesNamesS
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 2950787738161259304, guid: cd8161d0cec73cd4282705bea2f314fa, type: 3}
-      propertyPath: _resetStoryOnDialogueStart
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3826422838121473551, guid: cd8161d0cec73cd4282705bea2f314fa, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
