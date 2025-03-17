@@ -1,3 +1,4 @@
+using AdriKat.Toolkit.Attributes;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -18,9 +19,11 @@ public class IsometricMovementController : MonoBehaviour
     [SerializeField] private float _topSpeed = 2f;
     [Tooltip("Using this will control the velocity overriding it directly, which might not work well if you're working with other forces.")]
     [SerializeField] private bool _instantAcceleration = false;
+    [ShowIf(nameof(_instantAcceleration), invert: true)]
     [SerializeField] private float _acceleration = 50f;
     [Tooltip("Using this will control the velocity overriding it directly, which might not work well if you're working with other forces.")]
     [SerializeField] private bool _instantDeceleration = false;
+    [ShowIf(nameof(_instantDeceleration), invert: true)]
     [SerializeField] private float _deceleration = 50f;
 
     [Header("Isometric Movement")]
