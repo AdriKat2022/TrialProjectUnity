@@ -2,6 +2,10 @@
 Welcome to my game development trial project! This repository contains my implementations of the required tasks, demonstrating my skills in project setup, workflow management, gameplay mechanics, systems development, and maybe even custom editor tools.  
 This project uses the Unity [6000.0.24f1](https://unity.com/releases/editor/archive) version.
 
+## 📹 Video
+You can watch the following video to know more about this project!  
+[![Access the presentation video on youtube](https://img.youtube.com/vi/aK-_tDrV-J0/0.jpg)](https://www.youtube.com/watch?v=aK-_tDrV-J0)
+
 ## 📝 Overview
 This trial consists of 4 tasks designed to prove my skills and train multiple areas of game development over 5 days.  
 The tasks will evaluate:
